@@ -6,4 +6,4 @@ still working on it..
  * compton
  * fish shell
  * i3status
- 
+ ![alt text](https://raw.githubusercontent.com/despi11/dotfiles/master/scr.png)
