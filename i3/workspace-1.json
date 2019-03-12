@@ -1,0 +1,88 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            // splith split container with 1 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.8,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 506,
+                       "width": 722,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "Terminal - i3-save-tree /home/maros",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                       // "class": "^Xfce4\\-terminal$",
+                       // "instance": "^xfce4\\-terminal$",
+                       // "title": "^Terminal\\ \\-\\ i3\\-save\\-tree\\ \\/home\\/maros$",
+                       // "window_role": "^xfce4\\-terminal\\-1552404554\\-\\-1926077813$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 506,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal - cava",
+            "percent": 0.2,
+            "swallows": [
+               {
+               // "class": "^Xfce4\\-terminal$",
+               // "instance": "^xfce4\\-terminal$",
+               // "title": "^Terminal\\ \\-\\ cava$",
+               // "window_role": "^xfce4\\-terminal\\-1552404547\\-\\-1624720328$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 600,
+       "width": 800,
+       "x": 0,
+       "y": 0
+    },
+    "name": "Spotify",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Spotify$",
+       // "instance": "^spotify$",
+       // "title": "^Spotify$"
+       }
+    ],
+    "type": "con"
+}
+
